@@ -15,10 +15,7 @@ months = {
 
 while True:
 
-
     date = input("Date: ")
-
-    # Check if the day exceeds 31
 
     # Check if the month (in word form) is in the input
     if date.split()[0].lower() in months and "," in date:
